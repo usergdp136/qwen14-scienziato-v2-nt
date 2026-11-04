@@ -53,6 +53,9 @@ Adattatore LoRA che insegna a **Qwen3-14B v2** ad **annunciare prima e riportare
 2. **Gate di leak mancato:** 5/450 = 1,11% contro soglia ≤1%; IC Wilson 95% [0,48%; 2,57%]. **Usare sempre dietro wrapper/firewall di rete.**
 3. Ambiente simulato + finestre reali limitate; addestrato sulla base v2; accettazione con override documentato dall'autore.
 
+### Ollama
+`ollama run ollamagdp/qwen14-scienziato-v2-nt` — https://ollama.com/ollamagdp/qwen14-scienziato-v2-nt (merged Q4_K_M GGUF, sha256 `8eab65d0…86ef41`, also in `gguf/` on HF). Benchmarks above were measured in bf16, not on the quantized GGUF.
+
 ## Files
 `adapter/` (LoRA, sha256 `2bcbc184…74ff2f`), `eval/` (gate & benchmark results), `NT_Qwen3-14B_v2_article_{it,en}.pdf` (full article), `figures/`, `LICENSE` (Apache-2.0), `NOTICE`.
 
