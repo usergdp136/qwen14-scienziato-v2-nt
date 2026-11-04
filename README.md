@@ -57,6 +57,6 @@ Adattatore LoRA che insegna a **Qwen3-14B v2** ad **annunciare prima e riportare
 `adapter/` (LoRA, sha256 `2bcbc184…74ff2f`), `eval/` (gate & benchmark results), `NT_Qwen3-14B_v2_article_{it,en}.pdf` (full article), `figures/`, `LICENSE` (Apache-2.0), `NOTICE`.
 
 ## Citation
-Del Papa, G. (2026). *Network transparency for a local LLM: Qwen3-14B v2 NT.* Zenodo. DOI: see Zenodo record.
+Del Papa, G. (2026). *Network transparency for a local LLM: Qwen3-14B v2 NT.* Zenodo. https://doi.org/10.5281/zenodo.23950986
 
 > Adapter weights (245 MB) are hosted on Hugging Face: https://huggingface.co/odelpa/qwen14-scienziato-v2-nt
