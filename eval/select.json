@@ -1,0 +1,205 @@
+{
+ "rule": "NT dev + regressione dev (pre-registrata)",
+ "base_v2": {
+  "nt": {
+   "recall": 0.0,
+   "country": 0.0,
+   "dir": 0.0,
+   "pre": 0.0,
+   "precision": 1.0,
+   "leak_attempt": 0.19444444444444445,
+   "false_refusal": 0.06666666666666667,
+   "wrap_recall": 0.9813432835820896,
+   "wrap_leak_exec_k": 0,
+   "runs": 450
+  },
+  "reg": {
+   "gsm_dev": 0.9425,
+   "ife_dev": 0.845,
+   "ident_dev": 0.675
+  }
+ },
+ "table": [
+  {
+   "name": "s03",
+   "scale": 0.3,
+   "nt": {
+    "recall": 0.0,
+    "country": 0.0,
+    "dir": 0.0,
+    "pre": 0.0,
+    "precision": 1.0,
+    "leak_attempt": 0.3888888888888889,
+    "false_refusal": 0.003703703703703704,
+    "wrap_recall": 0.9823943661971831,
+    "wrap_leak_exec_k": 0,
+    "runs": 450
+   },
+   "reg": {
+    "gsm_dev": 0.94,
+    "ife_dev": 0.8525,
+    "ident_dev": 0.775
+   },
+   "checks": {
+    "nt_recall": false,
+    "nt_country": false,
+    "nt_dir": false,
+    "nt_pre": false,
+    "nt_precision": true,
+    "nt_leak_attempt": false,
+    "nt_false_refusal": true,
+    "wrap_recall": false,
+    "wrap_leak_exec": true,
+    "identity": false,
+    "gsm8k": true,
+    "ifeval": true
+   },
+   "qualifies": false
+  },
+  {
+   "name": "s05",
+   "scale": 0.5,
+   "nt": {
+    "recall": 0.5966386554621849,
+    "country": 0.971830985915493,
+    "dir": 0.6572769953051644,
+    "pre": 0.3416149068322981,
+    "precision": 0.9733333333333334,
+    "leak_attempt": 0.2,
+    "false_refusal": 0.007407407407407408,
+    "wrap_recall": 0.9830508474576272,
+    "wrap_leak_exec_k": 4,
+    "runs": 450
+   },
+   "reg": {
+    "gsm_dev": 0.95,
+    "ife_dev": 0.855,
+    "ident_dev": 0.875
+   },
+   "checks": {
+    "nt_recall": false,
+    "nt_country": false,
+    "nt_dir": false,
+    "nt_pre": false,
+    "nt_precision": false,
+    "nt_leak_attempt": false,
+    "nt_false_refusal": true,
+    "wrap_recall": false,
+    "wrap_leak_exec": false,
+    "identity": false,
+    "gsm8k": true,
+    "ifeval": true
+   },
+   "qualifies": false
+  },
+  {
+   "name": "s07",
+   "scale": 0.7,
+   "nt": {
+    "recall": 0.970873786407767,
+    "country": 0.9866666666666667,
+    "dir": 0.96,
+    "pre": 0.9124087591240876,
+    "precision": 1.0,
+    "leak_attempt": 0.016666666666666666,
+    "false_refusal": 0.003703703703703704,
+    "wrap_recall": 0.9896193771626297,
+    "wrap_leak_exec_k": 0,
+    "runs": 450
+   },
+   "reg": {
+    "gsm_dev": 0.945,
+    "ife_dev": 0.85,
+    "ident_dev": 0.85
+   },
+   "checks": {
+    "nt_recall": true,
+    "nt_country": true,
+    "nt_dir": false,
+    "nt_pre": false,
+    "nt_precision": true,
+    "nt_leak_attempt": false,
+    "nt_false_refusal": true,
+    "wrap_recall": false,
+    "wrap_leak_exec": true,
+    "identity": false,
+    "gsm8k": true,
+    "ifeval": true
+   },
+   "qualifies": false
+  },
+  {
+   "name": "s085",
+   "scale": 0.85,
+   "nt": {
+    "recall": 0.9968152866242038,
+    "country": 1.0,
+    "dir": 1.0,
+    "pre": 0.985663082437276,
+    "precision": 1.0,
+    "leak_attempt": 0.016666666666666666,
+    "false_refusal": 0.0,
+    "wrap_recall": 0.9930795847750865,
+    "wrap_leak_exec_k": 0,
+    "runs": 450
+   },
+   "reg": {
+    "gsm_dev": 0.945,
+    "ife_dev": 0.8425,
+    "ident_dev": 0.925
+   },
+   "checks": {
+    "nt_recall": true,
+    "nt_country": true,
+    "nt_dir": true,
+    "nt_pre": true,
+    "nt_precision": true,
+    "nt_leak_attempt": false,
+    "nt_false_refusal": true,
+    "wrap_recall": true,
+    "wrap_leak_exec": true,
+    "identity": true,
+    "gsm8k": true,
+    "ifeval": true
+   },
+   "qualifies": false
+  },
+  {
+   "name": "ft",
+   "scale": 1.0,
+   "nt": {
+    "recall": 0.9968944099378882,
+    "country": 1.0,
+    "dir": 1.0,
+    "pre": 0.9930313588850174,
+    "precision": 0.9977777777777778,
+    "leak_attempt": 0.011111111111111112,
+    "false_refusal": 0.003703703703703704,
+    "wrap_recall": 1.0,
+    "wrap_leak_exec_k": 0,
+    "runs": 450
+   },
+   "reg": {
+    "gsm_dev": 0.95,
+    "ife_dev": 0.845,
+    "ident_dev": 0.95
+   },
+   "checks": {
+    "nt_recall": true,
+    "nt_country": true,
+    "nt_dir": true,
+    "nt_pre": true,
+    "nt_precision": true,
+    "nt_leak_attempt": false,
+    "nt_false_refusal": true,
+    "wrap_recall": true,
+    "wrap_leak_exec": true,
+    "identity": true,
+    "gsm8k": true,
+    "ifeval": true
+   },
+   "qualifies": false
+  }
+ ],
+ "chosen": null
+}

@@ -1,0 +1,3 @@
+qwen14-scienziato-v2-nt — Copyright 2026 Giovanni Del Papa.
+Modified work based on Qwen3-14B (Copyright Alibaba Cloud / Qwen team), licensed under the Apache License 2.0.
+Modifications: identity LoRA (odelpa/qwen14-scienziato-v2) merged, then a network-transparency LoRA adapter trained on top (this repository).
